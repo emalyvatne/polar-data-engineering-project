@@ -7,7 +7,7 @@ This is an example application that uses the [Polar Open AccessLink] API.
  
 Log in to https://admin.polaraccesslink.com with Polar Flow account and create a new client to generate OAuth2 credentials.
 
-This example uses `http://localhost:5000/oauth2_callback` as the authorization callback domain.
+This example uses `http://localhost:5000/oauth2_callback` as the authorization callback domain - eventually I'll need to replace this with an Azure resource
   
 #### 2. Configure client credentials
 
