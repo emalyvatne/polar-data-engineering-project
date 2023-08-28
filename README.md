@@ -1,28 +1,17 @@
-# Polar Open AccessLink example application
+# Polar Data Engineering Project - API Access
 
 This is an example application that uses the [Polar Open AccessLink] API.
-With the [Polar Open AccessLink] you can access the training and daily activity data recorded with Polar devices.
-
-## Prerequisites
-
-* [Polar Flow](https://flow.polar.com) account
-* Python 3 and pip related to Python 3
 
 ## Getting Started
 #### 1. Create new API client 
  
-Navigate to https://admin.polaraccesslink.com. Log in with your Polar Flow account and create a new client.
+Log in to https://admin.polaraccesslink.com with Polar Flow account and create a new client to generate OAuth2 credentials.
 
-Use `http://localhost:5000/oauth2_callback` as the authorization callback domain for this example.
+This example uses `http://localhost:5000/oauth2_callback` as the authorization callback domain.
   
 #### 2. Configure client credentials
 
 Fill in your client id and secret in [config.yml] (example):
- 
-```
-client_id: 57a715f8-b7e8-11e7-abc4-cec278b6b50a
-client_secret: 62c54f4a-b7e8-11e7-abc4-cec278b6b50a
-```
   
 #### 3. Install python dependencies
 
